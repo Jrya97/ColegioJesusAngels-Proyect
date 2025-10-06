@@ -1,0 +1,30 @@
+import banerCarrusel1 from '../../assets/Baner-1.jpg'
+import banerCarrusel2 from '../../assets/Baner-2.jpg'
+import banerCarrusel3 from '../../assets/Baner-3.jpg'
+import banerCarrusel4 from '../../assets/Baner-4.jpg'
+import banerCarrusel5 from '../../assets/Baner-5.jpg'
+import { BanerMatricula } from './banerMatricula'
+import {ImagenesCarrusel} from './imagenesCarrusel'
+import { DescripcionNostros } from './nosotros'
+
+
+
+export function InicioMain() {
+     const BannerCarrusel: string[]=[
+        banerCarrusel1,
+        banerCarrusel2,
+        banerCarrusel3,
+        banerCarrusel4,
+        banerCarrusel5,
+    ]
+
+    return (
+        <main className="font-sans mt-10">
+            <div className="relative w-full">
+                <ImagenesCarrusel imagenesCarrusel={BannerCarrusel} />
+                <BanerMatricula />
+            </div>
+            <DescripcionNostros />
+        </main>
+    )
+}
