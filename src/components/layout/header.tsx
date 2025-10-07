@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Logo } from "./logo";
 import { Navbar } from "./navbar";
+import { PrimaryButton } from "../ui/primaryButton";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -24,14 +25,12 @@ export function Header() {
 
         <div className="hidden xm:flex items-center gap-6">
           <Navbar />
-          <a className="
-            bg-gradient-to-r from-green-500 to-[#24a9e7]
-            text-white font-bold
-            px-4 py-2 rounded 
-            cursor-pointer whitespace-nowrap "
+          <PrimaryButton
+          className="whitespace-nowrap"
           >
-            Iniciar Sesión
-          </a>
+            Iniciar Sesión            
+          </PrimaryButton>
+
         </div>
       </header>
 
@@ -42,16 +41,9 @@ export function Header() {
           p-4 xm:hidden"
         >
           <Navbar className="flex flex-col gap-3 w-full text-center border-b-2 border-gray-200 pb-3" />
-          <a className="
-            bg-gradient-to-r from-green-500 to-[#24a9e7]
-            text-white font-bold
-            px-4 py-2 
-            rounded cursor-pointer 
-            w-fit "
-          >
+          <PrimaryButton className="w-fit">
             Iniciar Sesión
-          </a>
-
+          </PrimaryButton>
         </div>
       )}
     </>)

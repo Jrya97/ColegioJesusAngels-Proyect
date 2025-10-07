@@ -5,7 +5,7 @@ import banerCarrusel4 from '../../assets/Baner-4.jpg'
 import banerCarrusel5 from '../../assets/Baner-5.jpg'
 import { BanerMatricula } from './banerMatricula'
 import {ImagenesCarrusel} from './imagenesCarrusel'
-import { DescripcionNostros } from './nosotros'
+import {NostrosLayout} from './nosotros'
 
 
 
@@ -24,7 +24,7 @@ export function InicioMain() {
                 <ImagenesCarrusel imagenesCarrusel={BannerCarrusel} />
                 <BanerMatricula />
             </div>
-            <DescripcionNostros />
+            <NostrosLayout />
         </main>
     )
 }
