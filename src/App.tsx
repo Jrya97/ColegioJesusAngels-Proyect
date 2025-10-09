@@ -1,14 +1,12 @@
-import { EstudiantesLayout } from "./components/layout/estudiantes"
-import { Header } from "./components/layout/header"
-import { InicioMain } from "./components/layout/inicioMain"
+import { HeaderLayout } from "./components/layout/headerLayout"
+import { MainLayout } from "./components/layout/mainLayout"
 
 function App() {
 
   return (
     <>
-      <Header />
-      <InicioMain />
-      <EstudiantesLayout />
+      <HeaderLayout />
+      <MainLayout />
     </>
   )
 }

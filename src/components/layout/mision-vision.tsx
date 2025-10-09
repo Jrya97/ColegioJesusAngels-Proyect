@@ -8,7 +8,7 @@
             gap-6             
             ${className}`
             }>
-                <img className="w-80 h-auto xm:w-xs lg:w-[30rem]" src={imagen} alt={`imagen-${imagen}`} />
+                <img loading="lazy" className="w-80 h-auto xm:w-xs lg:w-[30rem]" src={imagen} alt={`imagen-${imagen}`} />
                 <div className="flex flex-col gap-10">
                     <h3 className="
                     text-4xl font-bold text-center

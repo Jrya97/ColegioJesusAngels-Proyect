@@ -1,3 +1,5 @@
+import type { lazy } from "react";
+
 export type CardsProps = {
   title: string;
   description: string;
@@ -17,6 +19,7 @@ export function Cards({ title, description, image }: CardsProps) {
     >
       <div className="w-full h-36 sm:h-40 md:h-44">
         <img
+          loading="lazy"
           src={image}
           alt={title}
           className="w-full h-full object-cover block"
