@@ -11,8 +11,8 @@ export function NostrosLayout() {
         className="
           flex flex-col md:flex-row 
           justify-center items-center
-          py-15 px-5 md:px-10 lg:px-25
-          gap-6"
+          py-10 px-5 md:px-10 lg:px-25
+          gap-10"
       >
         <h2
           className="
@@ -24,7 +24,7 @@ export function NostrosLayout() {
           ¿Quiénes Somos?
         </h2>
 
-        <p className="text-justify text-lg sm:text-xl md:text-2xl px-2 sm:px-6 md:px-10">
+        <p className="text-justify text-lg sm:text-xl md:text-2xl px-2 sm:px-6 md:px-10 max-w-[785px] text-gray-700">
           Somos un Colegio que ofrece una educación integral basada en el amor, los valores y la excelencia
           académica. <span className="bg-gradient-to-r from-green-500 to-[#24a9e7]
           text-transparent bg-clip-text font-bold">Formamos a niños y niñas de Inicial y Primaria en un ambiente seguro y alegre, promoviendo

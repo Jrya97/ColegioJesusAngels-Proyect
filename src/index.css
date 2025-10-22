@@ -1,5 +1,26 @@
 @import 'tailwindcss';
 
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@layer utilities {
+  .animate-gradient-x {
+    animation: gradient-x 10s ease infinite;
+  }
+  .hover\:animate-gradient-x-fast:hover {
+    animation: gradient-x 1.5s ease infinite;
+  }
+}
+
 @theme {
     --breakpoint-xm: 865px;
 }

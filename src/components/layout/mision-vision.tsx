@@ -8,16 +8,16 @@
             gap-6             
             ${className}`
             }>
-                <img loading="lazy" className="w-80 h-auto xm:w-xs lg:w-[30rem]" src={imagen} alt={`imagen-${imagen}`} />
-                <div className="flex flex-col gap-10">
+                <img loading="lazy" className="w-80 h-auto xm:w-xs lg:w-[30rem] rounded-xl hover:scale-105 transition shadow-2xl hover:shadow-[0_4px_12px_rgba(0,0,0,0.6)]" src={imagen} alt={`imagen-${imagen}`} />
+                <div className="flex flex-col gap-5">
                     <h3 className="
                     text-4xl font-bold text-center
                     bg-gradient-to-r from-green-500 to-[#24a9e7]
                     text-transparent bg-clip-text">{titulo}</h3>
                     <p
                     className="
-                    text-justify text-lg  md:text-xl
-                    px-2 sm:px-6 md:px-10"
+                    text-justify max-w-3xl text-lg  md:text-2xl
+                    px-2 sm:px-6 md:px-10 text-gray-600"
                     >
                     {children}
                     </p>

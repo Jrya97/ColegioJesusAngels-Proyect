@@ -12,12 +12,12 @@ export function EstudiantesLayout() {
             py-10 px-5 md:px-10 lg:px-25
             gap-12 mt-10">
             <h2 className="text-3xl sm:text-4xl md:text-6xl
-            font-extrabold text-center md:text-left
+            font-extrabold text-center
             bg-gradient-to-r from-green-500 to-[#24a9e7]
             text-transparent bg-clip-text">
             Recursos para estudiantes
             </h2>
-            <p className="text-justify text-lg sm:text-xl md:text-2xl px-2 sm:px-6 md:px-10">
+            <p className="text-justify text-lg sm:text-xl md:text-2xl px-2 sm:px-6 md:px-10 max-w-[1290px] text-gray-600">
                 En el <span className="bg-gradient-to-r from-green-500 to-[#24a9e7]
                 text-transparent bg-clip-text font-bold">Colegio Jesus Angels</span>,
                 acompañamos a nuestros estudiantes en cada etapa de su
