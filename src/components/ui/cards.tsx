@@ -13,7 +13,7 @@ export function Cards({ title, description, image }: CardsProps) {
         animate-gradient-x bg-[length:200%_200%]
         hover:animate-gradient-x-fast
         w-64 sm:w-72 md:w-80 mx-auto
-        transition-transform duration-300 hover:scale-[1.03]
+        transition-transform duration-300 hover:scale-110
       "
     >
       <div className="bg-white rounded-xl h-full overflow-hidden">

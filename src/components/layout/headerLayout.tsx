@@ -10,7 +10,7 @@ export function HeaderLayout() {
     <>
       <header className="
         flex items-center justify-between 
-        border-b-2 border-gray-200 
+        border-b-2 border-gray-300 
         px-5 md:px-8 py-3 
         relative font-sans"
       >

@@ -8,7 +8,7 @@
             gap-6             
             ${className}`
             }>
-                <img loading="lazy" className="w-80 h-auto xm:w-xs lg:w-[30rem] rounded-xl hover:scale-105 transition shadow-2xl hover:shadow-[0_4px_12px_rgba(0,0,0,0.6)]" src={imagen} alt={`imagen-${imagen}`} />
+                <img loading="lazy" className="w-80 h-auto xm:w-xs lg:w-[30rem] rounded-xl hover:scale-115 transition shadow-2xl hover:shadow-[0_4px_12px_rgba(0,0,0,0.6)]" src={imagen} alt={`imagen-${imagen}`} />
                 <div className="flex flex-col gap-5">
                     <h3 className="
                     text-4xl font-bold text-center

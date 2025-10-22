@@ -35,7 +35,7 @@ export function ImagenesCarrusel({imagenesCarrusel}:{imagenesCarrusel:string[]})
                 loading="lazy"
                 src={imagen}
                 alt={`Banner ${index + 1}`}
-                className="w-[96%] h-[40rem] object-cover mx-auto" 
+                className="w-[98%] h-[40rem] object-cover mx-auto rounded-xl border-2 border-white" 
               />
             </SwiperSlide>
           ))}

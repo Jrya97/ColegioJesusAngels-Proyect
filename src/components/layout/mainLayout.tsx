@@ -20,10 +20,10 @@ export function MainLayout() {
     ]
 
     return (
-        <main className="font-sans mt-10">
-            <div className="relative w-full">
-                <ImagenesCarrusel imagenesCarrusel={BannerCarrusel} />
+        <main className="font-sans">
+            <div className="w-full border-b-2 border-gray-300 bg-gray-200 py-15">
                 <BanerMatricula />
+                <ImagenesCarrusel imagenesCarrusel={BannerCarrusel} />
             </div>
             <NostrosLayout />
             <EstudiantesLayout />
