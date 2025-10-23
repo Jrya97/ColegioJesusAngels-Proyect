@@ -64,7 +64,6 @@ export function HeaderLayout() {
             />
             <PrimaryLink 
               className="w-fit" 
-              onClick={closeMenu}
             >
               Iniciar Sesión
             </PrimaryLink>
