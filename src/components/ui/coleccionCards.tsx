@@ -15,8 +15,7 @@ export function ColeccionCards({children, tituloGeneral}: ColeccionCards) {
             py-15 px-5 md:px-10 lg:px-25
             gap-12 mt-2 w-full">
             <h3 className="text-3xl md:text-4xl font-extrabold text-center md:text-left
-            bg-gradient-to-r from-green-500 to-[#24a9e7]
-            text-transparent bg-clip-text lg:ml-10">
+            text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]">
             {tituloGeneral}
             </h3>
             <div className="

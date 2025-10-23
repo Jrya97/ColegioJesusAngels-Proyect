@@ -6,7 +6,7 @@ export function Navbar({ className = "" }: { className?: string }) {
       <OpcionNav href="inicio">Inicio</OpcionNav>
       <OpcionNav href="nosotros">Nosotros</OpcionNav>
       <OpcionNav href="estudiantes">Estudiantes</OpcionNav>
-      <OpcionNav href="">Contactanos</OpcionNav>
+      <OpcionNav href="contactos">Contactanos</OpcionNav>
     </nav>
   );
 }

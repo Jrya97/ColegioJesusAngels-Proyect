@@ -6,7 +6,7 @@ import valores from '../../assets/Valores.jpg';
 
 export function NostrosLayout() {
   return (
-    <section id="nosotros"className="w-full mt-10 font-sans">
+    <section id="nosotros"className="w-full mt-10 font-sans scroll-mt-24 md:scroll-mt-30">
       <article
         className="
           flex flex-col md:flex-row 
@@ -18,8 +18,7 @@ export function NostrosLayout() {
           className="
             text-3xl sm:text-4xl md:text-6xl
             font-extrabold text-center md:text-left
-            bg-gradient-to-r from-green-500 to-[#24a9e7]
-            text-transparent bg-clip-text"
+            text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]"
         >
           ¿Quiénes Somos?
         </h2>

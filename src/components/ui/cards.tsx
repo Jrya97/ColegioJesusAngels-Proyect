@@ -16,7 +16,7 @@ export function Cards({ title, description, image }: CardsProps) {
         transition-transform duration-300 hover:scale-110
       "
     >
-      <div className="bg-white rounded-xl h-full overflow-hidden">
+      <div className=" bg-gray-100 rounded-xl h-full overflow-hidden">
         <div className="w-full h-36 sm:h-40 md:h-44">
           <img
             loading="lazy"
@@ -34,8 +34,7 @@ export function Cards({ title, description, image }: CardsProps) {
         >
           <h3
             className="text-xl font-bold tracking-wide
-            bg-gradient-to-r from-green-500 to-[#24a9e7]
-            text-transparent bg-clip-text"
+            text-gray-600 drop-shadow-[2px_2px_4px_rgba(0,0,0,0.2)]"
           >
             {title}
           </h3>
