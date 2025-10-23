@@ -4,9 +4,6 @@ interface ColeccionCards{
     tituloGeneral: string;
 }
 
-
-
-
 export function ColeccionCards({children, tituloGeneral}: ColeccionCards) { 
 
     return (

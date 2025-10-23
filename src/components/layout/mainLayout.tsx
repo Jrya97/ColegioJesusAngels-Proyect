@@ -28,5 +28,6 @@ export function MainLayout() {
       <EstudiantesLayout/>
       <ContactosLayout />
     </main>
+
   );
 }

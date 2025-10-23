@@ -1,12 +1,10 @@
-import { HeaderLayout } from "./components/layout/headerLayout"
-import { MainLayout } from "./components/layout/mainLayout"
+import { PrincipalLayout } from "./components/pages/principalLayout"
 
 function App() {
 
   return (
     <>
-      <HeaderLayout />
-      <MainLayout />
+      <PrincipalLayout/>
     </>
   )
 }

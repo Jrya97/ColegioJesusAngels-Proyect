@@ -1,4 +1,4 @@
-import logo from "../../assets/Logo-Jesus-Angels.jpg";
+import logo from "../../assets/Logo-Jesus-Angels.png";
 
 export function Logo() {
   return (
