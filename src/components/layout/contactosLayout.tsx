@@ -1,4 +1,4 @@
-import { Formulario } from "../ui/Formulario";
+import { Formulario } from "../ui/formulario";
 
 export function ContactosLayout() {
   return (
